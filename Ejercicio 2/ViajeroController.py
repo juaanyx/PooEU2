@@ -59,4 +59,6 @@ class ViajeroController:
             else:
                 print('Error: valor incorrecto')
             
-                
+    def mostrardireccion(self):
+        for i in range(4):
+            print(f"Direccion: {hex(id(self.__viajeros[i]))}")
